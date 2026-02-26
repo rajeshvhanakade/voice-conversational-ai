@@ -22,27 +22,6 @@ This project demonstrates an **agentic AI architecture** suitable for real-world
 - 💬 Streamlit web UI  
 - 🧩 Modular, scalable architecture  
 
----
-
-## 🧱 Architecture
-User (Voice)
-      │
-      ▼
-Speech-to-Text (Whisper)
-      │
-      ▼
-Agent Controller
-      │
-      ├── Calculator Tool
-      ├── PDF Reader Tool
-      └── LLM (Ollama)
-      │
-      ▼
-Text-to-Speech
-      │
-      ▼
-User (Voice Output)
-
 
 ---
 
@@ -63,27 +42,6 @@ The agent follows a simple reasoning loop:
 - Tool selection  
 - Response formatting  
 - Error handling  
-
----
-
-## 🗂️ Project Structure
-voice_agent/
-│
-├── app/
-│ ├── stt/ # Speech-to-text (Whisper)
-│ ├── tts/ # Text-to-speech
-│ ├── llm/ # Ollama client
-│ ├── agent/ # Agent controller
-│ ├── tools/ # Calculator, PDF reader
-│ ├── memory/ # Short-term memory
-│ └── ui/ # Streamlit UI
-│
-├── main.py
-├── requirements.txt
-└── README.md
-
-
----
 
 ## ⚙️ Installation
 
