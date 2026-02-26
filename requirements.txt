@@ -1,0 +1,11 @@
+torch
+openai-whisper
+sounddevice
+numpy
+pyttsx3
+requests
+PyPDF2
+sentence-transformers
+faiss-cpu
+streamlit
+ollama
