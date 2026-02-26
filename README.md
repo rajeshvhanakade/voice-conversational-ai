@@ -26,21 +26,21 @@ This project demonstrates an **agentic AI architecture** suitable for real-world
 
 ## 🧱 Architecture
 User (Voice)
-│
-▼
+      │
+      ▼
 Speech-to-Text (Whisper)
-│
-▼
+      │
+      ▼
 Agent Controller
-│
-├── Calculator Tool
-├── PDF Reader Tool
-└── LLM (Ollama)
-│
-▼
+      │
+      ├── Calculator Tool
+      ├── PDF Reader Tool
+      └── LLM (Ollama)
+      │
+      ▼
 Text-to-Speech
-│
-▼
+      │
+      ▼
 User (Voice Output)
 
 
