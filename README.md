@@ -84,15 +84,9 @@ SoundDevice
 
 NumPy
 
-📌 Example Commands
-
-"Read pdf file"
-
-"What is AI?"
 
 "Exit"
 
 👨‍💻 Author
-
 Rajesh Vhankade
 AI/ML Engineer 
